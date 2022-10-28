@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "./style";
 
-function FirstComponent() {
+export function PrimeiraAula() {
   return (
     <>
       <Container>
@@ -10,5 +10,3 @@ function FirstComponent() {
     </>
   );
 }
-
-export default FirstComponent;

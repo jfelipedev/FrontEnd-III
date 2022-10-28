@@ -2,12 +2,12 @@ import React from 'react'
 import { GlobalStyle } from "./Style/GlobalStyle"
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from 'react-dom/client'
-import Class01  from './components/Class01/'
+import App  from './App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-    <Class01 />
+    <App />
     <GlobalStyle />
     </BrowserRouter>
   </React.StrictMode>
