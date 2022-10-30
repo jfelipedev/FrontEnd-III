@@ -2,7 +2,8 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
-:root { 
+ :root {  
+
 /* --background: #F3F5F6;
 --shape: #FFFFFF; 
 --green: #038153; 
@@ -19,7 +20,7 @@ text-rendering: optimizeLegibility;
 -webkit-font-smoothing: antialiased; 
 -moz-osx-font-smoothing: grayscale; 
 -webkit-text-size-adjust: 100%; 
-}
+} 
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { 
@@ -38,7 +39,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     } 
 body { 
     line-height: 1; 
+    
+    
 } 
+
 ol, ul { 
     list-style: none; 
 } 
@@ -55,6 +59,7 @@ table {
 }
 
 html { 
+    
     @media (max-width: 1080px){ 
         font-size: 93.75%; 
     } 
@@ -62,6 +67,7 @@ html {
          font-size: 87.5% 
         } 
     }
+
 
 
 body, input, textarea, button { 
