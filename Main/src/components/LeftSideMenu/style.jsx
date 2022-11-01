@@ -1,33 +1,30 @@
 import styled from "styled-components";
 
 export const Sidemenu = styled.nav`
-  /* display: flex;
-  flex-wrap: wrap;
-  align-items: center; */
-  height: auto;
-  width: 10rem;
-  background-color: #2e2e2e;
-  padding: 1rem;
-  border-radius: 1rem;
-  text-align: center;
+  .menu-background {
+    width: 10rem;
+    padding: 1rem;
+    background-color: #2e2e2e;
+    border-radius: 1rem;
+    text-align: center;
+  }
 
-  ul{
+  ul {
     width: 100%;
-}
-  li{    
+  }
+  li {
     padding: 0.7rem;
-    background-color: #5CB8E4;
+    background-color: #5cb8e4;
     border-radius: 0.3rem;
     margin-bottom: 0.3rem;
     text-align: center;
-    
   }
-  li:hover{
-    background-color: #8758FF;
-    transition: 0.3s    
+  li:hover {
+    background-color: #8758ff;
+    transition: 0.3s;
   }
 
-  a{
+  a {
     text-decoration: none;
     color: white;
   }

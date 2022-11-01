@@ -1,20 +1,18 @@
-import { PrimeiraAula } from "./components/Class01/";
-import { SegundaAula } from "./components/Class02/";
-import { TerceiraAula } from "./components/Class03/";
-import { QuartaAula } from "./components/Class04/";
-import { QuintaAula } from "./components/Class05/";
-import { AppBody } from "./components/AppBody/";
+import { GlobalStyle } from "./Style/GlobalStyle";
+import { LeftSideMenu } from "../src/components/LeftSideMenu";
+import "./App.css";
+import Content from "./components/Content";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      {/* <PrimeiraAula /> */}
-      {/* <SegundaAula /> */}
-      {/* <TerceiraAula /> */}
-      {/* <QuartaAula /> */}
-      {/* <QuintaAula /> */}
-      {/* <AppBody /> */}
-    </>
+    <div className="App">
+      <BrowserRouter>
+        <LeftSideMenu />
+        <Content />
+        <GlobalStyle />
+      </BrowserRouter>
+    </div>
   );
 }
 

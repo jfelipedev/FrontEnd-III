@@ -4,16 +4,13 @@ export const GlobalStyle = createGlobalStyle`
 
  :root {  
 
-/* --background: #F3F5F6;
---shape: #FFFFFF; 
---green: #038153; 
---red: #e52e4d; 
---blue: #596DD6; 
---blue-light: #5F73E3;
+--background: #181818;
+--purple: #8758FF; 
+--blue-light: #5CB8E4;
 
---text-logo: #FFFFFF;
---text-title: #67748E;
---text-body: #344767; */
+--text-logo: #ffffff;
+--text-title: #5CB8E4;
+--text-body: #ffffff;
 
 font-synthesis: none; 
 text-rendering: optimizeLegibility; 
@@ -38,9 +35,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
      display: block; 
     } 
 body { 
-    line-height: 1; 
-    
-    
+    line-height: 1;    
+    background: var(--background);
 } 
 
 ol, ul { 

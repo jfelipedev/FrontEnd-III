@@ -6,7 +6,7 @@ export function QuintaAula() {
     const componentFinded = [
         {
             id:1,
-            title: "Img Componentt",
+            title: "Img Component",
             image: bdo,
             description: " description"
         }, {
